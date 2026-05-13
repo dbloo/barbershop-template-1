@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import {motion} from "framer-motion"
 
 export const Route = createFileRoute('/gallery')({
   component: RouteComponent,
@@ -19,9 +20,16 @@ const images = [
 function RouteComponent() {
   return <main><section className = "w-screen h-auto lg:p-20 pt-20 p-5">
     
-    <h1 className='font-black mt-10 lg:text-8xl text-7xl text-center'>GALLERY</h1>
+    <motion.h1 initial={{ y: 20, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.1 }}
+            
+             className = "text-black font-black lg:text-9xl mt-10 text-6xl w-full">GALLERY</motion.h1> 
 
-    <div className = "overflow-hidden w-full flex flex-col min-h-screen   bg-background  ">
+    <motion.div 
+    
+    
+    className = "overflow-hidden w-full flex flex-col min-h-screen   bg-background  ">
     <div className = "overflow-hidden w-full text-8xl  ">
    
 
@@ -51,7 +59,7 @@ function RouteComponent() {
 
 
         </div>
-        </div>
+        </motion.div>
     
     </section></main>
 }

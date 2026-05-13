@@ -1,6 +1,6 @@
 import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
-import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
-import { TanStackDevtools } from '@tanstack/react-devtools'
+// import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
+// import { TanStackDevtools } from '@tanstack/react-devtools'
 import {Navbar } from '@/components/ui/navbar'
 import { Footer } from '#/components/ui/footer'
 
@@ -32,12 +32,12 @@ export const Route = createRootRoute({
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en"  className='scroll-smooth' >
       <head>
         <HeadContent />
       </head>
        <Navbar/>
-      <body className='scroll-smooth'>
+      <body>
        
         {children}
         {/* <TanStackDevtools

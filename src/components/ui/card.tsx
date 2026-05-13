@@ -33,7 +33,7 @@ return (
     
 }
 
-function ServicesCard({title, description, icon, image}: ServiceProps){
+function ServicesCard({title, description, image}: ServiceProps){
 
     return(
         <div className = " overflow-hidden relative border w-full  border-white rounded-2xl h-80 ">
@@ -64,7 +64,9 @@ function Services({title, description, Icon, image}: ServiceProps){
               {Icon && <Icon className = "invert ml-5" size = {24}/>}
 </div>
               <h1 className = "text-white">{description}</h1>
-              <Link to ={"/"}><Button size= "lg" className = " rounded-2xl bg-red  mt-10 z-10  right-0 bg-white border-white border text-black "type="submit">Book</Button></Link>
+              <a href = "https://getsquire.com/booking/book/miami-barber-house-hialeah"
+             
+                  ><Button size= "lg" className = "cursor-pointer hover:bg-black hover:text-white rounded-2xl bg-red  mt-10 z-10  right-0 bg-white border-white border text-black "type="submit">Book</Button></a>
                   </div> 
                   <div style={{ backgroundImage: `url(${image})` }} className=" rounded-r-lg w-1/2 bg-center h-full bg-cover">
                     

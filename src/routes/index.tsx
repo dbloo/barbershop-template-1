@@ -1,10 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
 import {Button} from '@/components/ui/button'
 import {Link} from "@tanstack/react-router"
-import { StaffCard, ServicesCard, Services } from '#/components/ui/card'
+import { StaffCard, Services } from '#/components/ui/card'
 import {AnimatePresence, motion} from "framer-motion"
-import { useRef } from 'react'
-import { useInView } from 'framer-motion'
 import { Scissors, Lollipop} from 'lucide-react'
 
 export const Route = createFileRoute('/')({ component: Home })
@@ -106,11 +104,7 @@ const services = [
 function Home() {
 
 
-  const heroRef = useRef(null)
-const isHeroInView = useInView(heroRef, { amount: "some" })
 
-const aboutRef = useRef(null)
-const isAboutInView = useInView(aboutRef, { amount: "some" })
   return (
    <main className='w-screen overflow-x-hidden min-h-screen'>
 
@@ -142,11 +136,11 @@ const isAboutInView = useInView(aboutRef, { amount: "some" })
                   <motion.a href = "https://getsquire.com/booking/book/miami-barber-house-hialeah"
              
                   >
-                        <Button className = " rise-in cursor-pointer border  bg-white text-black hover:bg-black hover:text-white rounded-xl border-white/10 z-10 relative 2xl:top-10  top-10"type="submit">Schedule an Appointment</Button>
+                        <Button className = " rise-in cursor-pointer border  bg-white text-black hover:border-white  hover:bg-black hover:text-white rounded-xl border-white/10 z-10 relative 2xl:top-10  top-10"type="submit">Schedule an Appointment</Button>
                     </motion.a>
                     </motion.div>
                   </div>
-        <div className=' bg-fixed brightness-50 absolute w-screen h-screen lg:bg-cover bg-contain bg-center bg-[url(/assets/barberheader.jpg)]'></div>
+        <div className=' lg:bg-fixed brightness-50 absolute w-screen h-screen lg:bg-cover bg-cover bg-center bg-[url(/assets/barberheader.jpg)]'></div>
         <div className = "items-center justify-center w-full h-full ">
         </div>
         </div>
@@ -170,7 +164,7 @@ const isAboutInView = useInView(aboutRef, { amount: "some" })
             
         
         className=' z-10   lg:w-4/5 w-full lg:text-2xl text-lg mt-10 '> We've been cutting in Hialeah since day one. At Miami Barber House, every barber brings their own style and their own story — but we're all here for the same reason. To make you look good and feel even better. Come through, kick back, and let us handle the rest.</motion.p>
-        <Link to="/gallery"><Button size="sm" className = "z-10 relative mt-5  bg-black border border-white/20 shadow-md rounded-xl "type="submit">View our Gallery</Button></Link>
+        <Link to="/gallery"><Button size="lg" className = "cursor-pointer hover:bg-white hover:border-black hover:text-black z-10 relative mt-5  bg-black border border-white/20 shadow-md rounded-xl "type="submit">View our Gallery</Button></Link>
         </div>
 
             <div className = "">
