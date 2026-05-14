@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Button } from '@/components/ui/button'
 import {motion} from "framer-motion"
+import {about, herodescription, staff } from '@/siteinfo'
 export const Route = createFileRoute('/about')({
   component: RouteComponent,
 })
@@ -22,8 +23,7 @@ function RouteComponent() {
         initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.17 }}
-        className = "text-black mt-10 lg:text-2xl  text-lg w-full">Miami Barber House started with a chair, a pair of clippers, and a simple belief — that everyone deserves a great cut. What began as a neighborhood spot in Hialeah has grown into something much bigger: a team of dedicated barbers, a loyal community of clients, and a shop that's become a staple of the city we love.
-Every barber on our team brings their own style, their own story, and their own passion to the chair. From clean tapers to intricate braids, we take pride in the craft and it shows in every single cut.
+        className = "text-black mt-10 lg:text-2xl  text-lg w-full">{about}
 </motion.p>
 
         <Button className = "  cursor-pointer border  bg-black text-white hover:bg-white hover:border-black hover:text-black rounded-xl border-white/10 z-10 mt-10 mb-10 2xl:top-10  top-10"type="submit">Schedule an Appointment</Button>

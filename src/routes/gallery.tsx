@@ -41,7 +41,7 @@ function RouteComponent() {
               src={image.url}
               alt={image.name}
               className="w-full h-auto rounded-2xl transition-all cursor-pointer"
-              // onClick={()=>displayLightbox(index)}
+              
             />
           </div>
 

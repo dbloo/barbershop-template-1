@@ -3,102 +3,10 @@ import {Button} from '@/components/ui/button'
 import {Link} from "@tanstack/react-router"
 import { StaffCard, Services } from '#/components/ui/card'
 import {AnimatePresence, motion} from "framer-motion"
-import { Scissors, Lollipop} from 'lucide-react'
+
+import {title, intro, services, staff, images, herodescription, link } from '@/siteinfo'
 
 export const Route = createFileRoute('/')({ component: Home })
-
-const staff = [
-  {
-      name: "Daniel",
-      link: " ",
-      image: "./assets/portraits/p1.jpg ",
-  },
-  {
-      name: "Danya",
-      link: "https://getsquire.com/booking/book/miami-barber-house-hialeah/barber/dayana-10/services",
-      image: "./assets/portraits/p2.jpg ",
-  },
-  {
-      name: "Mizzy",
-      link: "https://getsquire.com/booking/book/miami-barber-house-hialeah/barber/mizzy/services",
-      image: "./assets/portraits/p3.jpg",
-  },
-  {
-      name: "Brandon F.",
-      link: "https://getsquire.com/booking/book/miami-barber-house-hialeah/barber/brandon-fuster/services",
-      image: "./assets/portraits/p4.jpg",
-  },
-  {
-      name: "Dillan A.",
-      link: "https://getsquire.com/booking/book/miami-barber-house-hialeah/barber/dillan-a/services",
-      image: "./assets/portraits/p5.jpg",
-  },
-  {
-      name: "Edwin",
-      link: "https://getsquire.com/booking/book/miami-barber-house-hialeah/barber/edwin-190/services",
-      image: "./assets/portraits/p6.jpg",
-  },
-  {
-      name: "Carlos",
-      link: "https://getsquire.com/booking/book/miami-barber-house-hialeah/barber/carlos-757/services",
-      image: "./assets/portraits/p7.jpg",
-  },
-  {
-      name: "Einier",
-      link: "https://getsquire.com/booking/book/miami-barber-house-hialeah/barber/einier/services",
-      image: "./assets/portraits/p8.jpg",
-  },
-  {
-      name: "Jose",
-      link: "https://getsquire.com/booking/book/miami-barber-house-hialeah/barber/jose-1475/services",
-      image: "./assets/portraits/p9.jpg",
-  },
-  {
-      name: "Ernesto",
-      link: "https://getsquire.com/booking/book/miami-barber-house-hialeah/barber/ernesto-86/services",
-      image: "./assets/portraits/p10.jpg",
-  },
-
-]
-
-const services = [
-  {
-    title: "Fresh Cut",
-    icon: "",
-    description: "A timeless haircut tailored to your style. Whether you prefer a clean taper, a sharp fade, or a traditional scissor cut, our barbers will make sure you leave looking and feeling your best.",
-    image: "./assets/cust1.jpg ",
-    Icon: Scissors
-
-  },
-  {
-    title: "Kids Cut",
-    icon: "",
-    description: "A timeless haircut tailored to your style. Whether you prefer a clean taper, a sharp fade, or a traditional scissor cut, our barbers will make sure you leave looking and feeling your best.",
-    image: "./assets/cust3.jpg ",
-    Icon: Lollipop
-
-  },
-  {
-    title: "Braids and Twists",
-    icon: "",
-    description: "A timeless haircut tailored to your style. Whether you prefer a clean taper, a sharp fade, or a traditional scissor cut, our barbers will make sure you leave looking and feeling your best.",
-    image: "./assets/cust2.jpg",
-    Icon: Scissors
-
-
-  },
-  {
-    title: "Beard Lineup",
-    icon: "",
-    description: "A timeless haircut tailored to your style. Whether you prefer a clean taper, a sharp fade, or a traditional scissor cut, our barbers will make sure you leave looking and feeling your best.",
-    image: "./assets/cust2.jpg ",
-    Icon: Scissors
-
-  },
-
-]
-
-
 
   
 function Home() {
@@ -118,14 +26,14 @@ function Home() {
             transition={{ delay: 0.1 }}
           
           
-          className=' z-10 text-center font-black lg:text-8xl text-6xl text-text-head'>MIAMI BARBER HOUSE</motion.h1>
+          className=' z-10 text-center font-black lg:text-8xl text-6xl text-text-head'>{title}</motion.h1>
           <motion.p 
            
            initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.1 }}
           
-          className = "z-10 pt-5 text-xl text-white "> Book your chair with Miami's finest. Walk-ins welcome, appointments preferred.</motion.p>
+          className = "z-10 pt-5 text-xl text-white "> {herodescription}</motion.p>
                   
                   <motion.div
                   
@@ -133,14 +41,16 @@ function Home() {
             
             >
                   
-                  <motion.a href = "https://getsquire.com/booking/book/miami-barber-house-hialeah"
+                  <motion.a href = {link}
              
                   >
                         <Button className = " rise-in cursor-pointer border  bg-white text-black hover:border-white  hover:bg-black hover:text-white rounded-xl border-white/10 z-10 relative 2xl:top-10  top-10"type="submit">Schedule an Appointment</Button>
                     </motion.a>
                     </motion.div>
                   </div>
-        <div className=' lg:bg-fixed brightness-50 absolute w-screen h-screen lg:bg-cover bg-cover bg-center bg-[url(/assets/barberheader.jpg)]'></div>
+        <div 
+        style = {{backgroundImage: `url(${images.hero})`}}
+        className={`lg:bg-fixed brightness-50 absolute w-screen h-screen lg:bg-cover bg-cover bg-center`}></div>
         <div className = "items-center justify-center w-full h-full ">
         </div>
         </div>
@@ -163,7 +73,7 @@ function Home() {
             transition={{ delay: 0.2 }}
             
         
-        className=' z-10   lg:w-4/5 w-full lg:text-2xl text-lg mt-10 '> We've been cutting in Hialeah since day one. At Miami Barber House, every barber brings their own style and their own story — but we're all here for the same reason. To make you look good and feel even better. Come through, kick back, and let us handle the rest.</motion.p>
+        className=' z-10   lg:w-4/5 w-full lg:text-2xl text-lg mt-10 '>{intro}</motion.p>
         <Link to="/gallery"><Button size="lg" className = "cursor-pointer hover:bg-white hover:border-black hover:text-black z-10 relative mt-5  bg-black border border-white/20 shadow-md rounded-xl "type="submit">View our Gallery</Button></Link>
         </div>
 

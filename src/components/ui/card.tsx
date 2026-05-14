@@ -1,6 +1,7 @@
 
 import { Link} from "@tanstack/react-router";
 import { Button } from "./button";
+import {link} from "@/siteinfo";
 
 interface StaffProps{
     name: string;
@@ -64,7 +65,7 @@ function Services({title, description, Icon, image}: ServiceProps){
               {Icon && <Icon className = "invert ml-5" size = {24}/>}
 </div>
               <h1 className = "text-white">{description}</h1>
-              <a href = "https://getsquire.com/booking/book/miami-barber-house-hialeah"
+              <a href = {link}
              
                   ><Button size= "lg" className = "cursor-pointer hover:bg-black hover:text-white rounded-2xl bg-red  mt-10 z-10  right-0 bg-white border-white border text-black "type="submit">Book</Button></a>
                   </div> 

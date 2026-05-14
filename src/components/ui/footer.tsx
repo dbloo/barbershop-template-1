@@ -23,8 +23,8 @@ function Footer () {
         <div className="  lg:gap-50 gap-10 flex lg:flex-row flex-col  justify-between w-full">
             <div className="w-full">
                 <div className = "flex flex-col gap-5">
-                    <h1 className =" font-bold lg:text-6xl text-2xl ">MIAMI BARBER HOUSE</h1>
-                    <p className="lg:text-4xl text-lg">3309 W 80th St, Hialeah, FL 33018</p>
+                    <h1 className =" font-bold lg:text-6xl text-2xl ">NUEVA ERA CHEPI FADES</h1>
+                    <p className="lg:text-4xl text-lg">5908 South Orange Avenue, Pine Castle, FL 32809</p>
                     <p className = "lg:text-4xl text-lg">(786) 536-7919</p>
 
                     <h1 className =" font-bold mt-10 lg:text-6xl text-2xl">Hours</h1>
@@ -51,7 +51,7 @@ function Footer () {
                     </div>
                 </div>
                 <div className = "text-center justify-center items-center w-full">
-                <p>©2026 Miami Barber House.</p>
+                <p>©2026 Nueva Era Chepi Fades.</p>
                 <p>Site developed by Traction Media.</p>
                 </div>
              </div>
