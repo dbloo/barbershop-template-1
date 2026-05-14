@@ -32,7 +32,7 @@ export const images = {
         "/gallery5.jpg",
         "/gallery6.jpg",
     ],
-    hero: "./assets/hero.jpg",
+    hero: "./assets/hero.jpeg",
     about: "./assets/hero.jpg",
 
 
