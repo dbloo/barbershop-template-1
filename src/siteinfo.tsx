@@ -1,11 +1,11 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "Nueva Era Chepi Fades"
-export const keywords = "Nueva Era Chepi Fades, barbershop, Pine Castle, FL, grooming services, haircuts, fades, beard trims"
-export const herodescription = "Your premier barbershop in Pine Castle. Book your appointment today and experience the best"
-export const about = "At Nueva Era Chepi Fades, we are dedicated to providing top-notch grooming services in Pine Castle, FL. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at Nueva Era Chepi Fades!"
-export const intro = "Experience top-notch grooming services at Nueva Era Chepi Fades, your premier barbershop in Pine Castle, FL. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style with Nueva Era Chepi Fades!"
-export const link = "https://getsquire.com/booking/book/nueva-era-chepi-fades-pine-castle"
+export const title = "The Luxe Barber Suite"
+export const keywords = `The Luxe Barber Suite, barbershop, Pine Castle, FL, grooming services, haircuts, fades, beard trims`
+export const herodescription = "Your premier barbershop in Fort Lauderdale. Book your appointment today and experience the best"
+export const about = "At The Luxe Barber Suite, we are dedicated to providing top-notch grooming services in Fort Lauderdale, FL. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!"
+export const intro = "Experience top-notch grooming services at the Luxe Barber Suite, your premier barbershop in Fort Lauderdale, FL. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style with The Luxe Barber Suite."
+export const link = "https://booksy.com/en-us/1352498_the-luxe-barber-suite_barber-shop_15643_fort-lauderdale"
 
 export const hours = {
     mon:"9AM-6PM",
@@ -18,8 +18,8 @@ export const hours = {
 }
 
 export const contactInfo = {
-    address: "5908 South Orange Avenue, Pine Castle, FL 32809",
-    phone: "(786) 536-7919",
+    address: "North Andrews Aenue 500, Fort Lauderdale, FL 33301",
+    phone: "(954) 290-5540",
 }
 
 export const images = {
@@ -75,7 +75,7 @@ export const services = [
 
 ]
 
-export const bookingLink = "https://getsquire.com/booking/book/miami-barber-house-hialeah"
+export const bookingLink = "https://booksy.com/en-us/1352498_the-luxe-barber-suite_barber-shop_15643_fort-lauderdale"
 
 export const socialMedia = {
     instagram: "https://www.instagram.com/nuevaerachepifades/",
@@ -89,47 +89,47 @@ export const socialMedia = {
 export const staff = [
   {
             name: "Cesar",
-            link: "https://getsquire.com/booking/book/nueva-era-chepi-fades-pine-castle/barber/cesar-barber/services",
+            link: " ",
             image: "./assets/portraits/p1.jpg ",
         },
         {
             name: "Jean",
-            link: "https://getsquire.com/booking/book/nueva-era-chepi-fades-pine-castle/barber/jean-barbero-1/services",
+            link: " ",
             image: "./assets/portraits/p2.jpg ",
         },
         {
             name: "Lakers",
-            link: "https://getsquire.com/booking/book/nueva-era-chepi-fades-pine-castle/barber/lakers-barbershop/services",
+            link: " ",
             image: "./assets/portraits/p3.jpg",
         },
 
         {
             name: "Yofry",
-            link: "https://getsquire.com/booking/book/nueva-era-chepi-fades-pine-castle/barber/yofry-barber/services",
+            link: " ",
             image: "./assets/portraits/p4.jpg",
         },
 
         {
             name: "Brown",
-            link: "https://getsquire.com/booking/book/nueva-era-chepi-fades-pine-castle/barber/brown-barber-1/services",
+            link: " ",
             image: "./assets/portraits/p5.jpg",
         },
 
         {
             name: "Jesus",
-            link: "https://getsquire.com/booking/book/nueva-era-chepi-fades-pine-castle/barber/jesus-barber-5/services",
+            link: " ",
             image: "./assets/portraits/p6.jpg",
         },
 
         {
             name: "Josman",
-            link: "https://getsquire.com/booking/book/nueva-era-chepi-fades-pine-castle/barber/josman-barber/services",
+            link: " ",
             image: "./assets/portraits/p7.jpg",
         },
 
         {
             name: "Thechepi",
-            link: "https://getsquire.com/booking/book/nueva-era-chepi-fades-pine-castle/barber/thechepi-barber/services",
+            link: " ",
             image: "./assets/portraits/p8.jpg",
         },
 

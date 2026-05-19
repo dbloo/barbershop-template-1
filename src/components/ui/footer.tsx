@@ -1,5 +1,7 @@
 import { Input } from "./input"
 import { Button } from "./button"
+import { title } from "@/siteinfo"
+import {contactInfo} from "@/siteinfo"
 
 const hours ={
     mon:"9AM-8PM",
@@ -19,13 +21,13 @@ function Footer () {
     return(
     
     <>
-    <footer className=" lg:p-20 p-5 z-1000 bg-red-400  text-white w-screen h-auto ">
+    <footer className=" lg:p-20 p-5 z-1000 bg-green-900  text-white w-screen h-auto ">
         <div className="  lg:gap-50 gap-10 flex lg:flex-row flex-col  justify-between w-full">
             <div className="w-full">
                 <div className = "flex flex-col gap-5">
-                    <h1 className =" font-bold lg:text-6xl text-2xl ">NUEVA ERA CHEPI FADES</h1>
-                    <p className="lg:text-4xl text-lg">5908 South Orange Avenue, Pine Castle, FL 32809</p>
-                    <p className = "lg:text-4xl text-lg">(786) 536-7919</p>
+                    <h1 className =" font-bold lg:text-6xl text-2xl ">{title}</h1>
+                    <p className="lg:text-4xl text-lg">{contactInfo.address}</p>
+                    <p className = "lg:text-4xl text-lg">{contactInfo.phone}</p>
 
                     <h1 className =" font-bold mt-10 lg:text-6xl text-2xl">Hours</h1>
 
@@ -47,11 +49,11 @@ function Footer () {
                     <p className="mt-5 ">Enter your email to be notified of our specials and discounts </p>
                     <div className = "relative w-full mb-10">
                             <Input className= "relative w-full border-white placeholder:text-white mt-10 "placeholder="e.g. John Doe"/>
-                            <Button className = "bg-red-400 cursor-pointer text-white border border-white  hover:bg-white hover:text-red-400 hover:border-red-400 bottom-0 absolute right-0"type = "submit">Submit</Button>
+                            <Button className = "bg-green-800 cursor-pointer text-white border border-white  hover:bg-white hover:text-green-800 hover:border-green-800 bottom-0 absolute right-0"type = "submit">Submit</Button>
                     </div>
                 </div>
                 <div className = "text-center justify-center items-center w-full">
-                <p>©2026 Nueva Era Chepi Fades.</p>
+                <p>©2026 {title}.</p>
                 <p>Site developed by Traction Media.</p>
                 </div>
              </div>

@@ -21,9 +21,9 @@ interface ServiceProps{
 
 function StaffCard ({name, image, link}: StaffProps) {
 return (
-    <div className = "gap-4 justify-center items-center  border relative lg:h-85 h-50 w-full grid grid-cols-5 border-black rounded-2xl overflow-clip">
+    <div className = "gap-4 justify-center items-center  border relative lg:h-85 h-50 w-full grid grid-cols-5 border-white rounded-2xl overflow-clip">
                   <div style={{ backgroundImage: `url(${image})` }} className={` absolute w-full h-full bg-center bg-cover  `}></div>
-                  <div className = "bg-black w-full lg:h-1/4 h-1/4 flex justify-center items-center absolute bottom-0 right-0 rounded-b-2xl overflow-hidden"></div>
+                  <div className = "bg-green-700/30 backdrop w-full lg:h-1/4 h-1/4 flex justify-center items-center absolute bottom-0 right-0 rounded-b-2xl overflow-hidden"></div>
                   <div className = "absolute right-0  lg:p-5 p-2 bottom-0 flex flex-row justify-between items-baseline w-full">
                       <h1 className = " bottom-0 lg:text-2xl font-bold left-0  text-white">{name}</h1>
                       <Link to ={link}><Button size = "sm" className = " z-10  bg-white text-black hover:bg-black hover:border-white hover:text-white cursor-pointer border-white border top-20"type="submit">Book</Button></Link>

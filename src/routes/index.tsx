@@ -56,7 +56,7 @@ function Home() {
         </div>
         </AnimatePresence>
       </section>
-      <section className='w-screen h-screen lg:p-20 p-5'>
+      <section className='w-screen bg-green-900  text-white h-screen lg:p-20 p-5'>
         <div className = " w-full h-full flex flex-col lg:flex-row">
         <div className ="h-full w-full lg:w-screen">
         <motion.h1 
@@ -65,7 +65,7 @@ function Home() {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.1 }}
         
-        className=' z-10 font-black lg:text-8xl text-4xl  '>We Prioritize Your Looks.</motion.h1>
+        className=' z-10 font-black lg:text-8xl text-5xl  '>We Prioritize Your Looks.</motion.h1>
         <motion.p
 
           initial={{ y: 20, opacity: 0 }}
@@ -74,7 +74,7 @@ function Home() {
             
         
         className=' z-10   lg:w-4/5 w-full lg:text-2xl text-lg mt-10 '>{intro}</motion.p>
-        <Link to="/gallery"><Button size="lg" className = "cursor-pointer hover:bg-white hover:border-black hover:text-black z-10 relative mt-5  bg-black border border-white/20 shadow-md rounded-xl "type="submit">View our Gallery</Button></Link>
+        <Link to="/gallery"><Button size="lg" className = "cursor-pointer bg-green-800 text-white hover:border-black hover:text-black z-10 relative mt-5   border border-white shadow-md rounded-xl "type="submit">View our Gallery</Button></Link>
         </div>
 
             <div className = "">
@@ -83,17 +83,17 @@ function Home() {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
                 
-                className ="border border-black/70 rounded-3xl lg:mt-90 w-400"src ="/assets/cut1.jpg"/>
+                className ="border border-white rounded-3xl lg:mt-90 w-400"src ="/assets/cut1.jpg"/>
                 </div>
 
         </div>
       </section>
-      <section className = "bg-white w-screen h-screen p-5 lg:pl-50 lg:pr-50  ">
+      <section className = "bg-green-900  text-white w-screen h-auto p-5 lg:pl-50 lg:pr-50  ">
         <div className='h-full w-full flex flex-col'>
 
           <div className ="w-full text-center justify-center items-center">
 
-            <div className = " justify-center items-center border-t border-black  mask-radial-to-70%  w-full "></div>
+            <div className = " justify-center items-center border-t border-white mask-radial-to-70%  w-full "></div>
         <motion.h1 
           initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -111,15 +111,9 @@ function Home() {
                 <div className = "mask-b-from-80% mt-10 lg:mask-b-from-100% pb-20 gap-4 justify-center items-center relative  w-full grid lg:grid-cols-5 grid-cols-2 border-black rounded-2xl lg:overflow-hidden overflow-y-scroll">
 
                      {staff.map((employee, i) => (
-                      <motion.div
-                        initial={{ y: 20, opacity: 0 }}
-                        whileInView={{ y: 0, opacity: 1 }}
-                        transition={{ delay: i * 0.05 }}
                       
-                      
-                      className = "">
                         <StaffCard key = {i} name = {employee.name} image = {employee.image} link = {employee.link}/>
-                        </motion.div>
+            
                      ))}
 
                      </div>
@@ -130,7 +124,7 @@ function Home() {
 
       </section>
 
-      <section className = "bg-black w-screen h-screen lg:pr-20 lg:pl-20 lg:pb-20 p-5 ">
+      <section className = "bg-black w-screen h-auto lg:pr-20 lg:pl-20 lg:pb-20 p-5 ">
         <div className='h-full w-full flex flex-col'>
 
           <div className ="w-full text-center mb-15">
@@ -159,7 +153,7 @@ function Home() {
                      </div> */}
 
 
-                     <div className = "gap-4 lg:mask-b-from-100% mask-b-from-90% flex flex-col  h-full relative  w-full lg:grid lg:grid-cols-2 border-black  lg:overflow-hidden overflow-y-scroll">
+                     <div className = "gap-4 lg:mask-b-from-100% mask-b-from-90% flex flex-col  h-auto pb-20 relative  w-full lg:grid lg:grid-cols-2 border-black  lg:overflow-hidden overflow-y-scroll">
 
                        {services.map((service, i) => (
                           <motion.div 
