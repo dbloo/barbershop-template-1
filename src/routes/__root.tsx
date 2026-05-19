@@ -17,7 +17,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'The Luxe Barber Suite - Hialeah’s Premier Barbershop',
+        title: 'The Luxe Barber Suite - Fort Lauderdale\'s Premier Barbershop',
       },
     ],
     links: [
