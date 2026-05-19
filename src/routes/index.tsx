@@ -4,7 +4,7 @@ import {Link} from "@tanstack/react-router"
 import { StaffCard, Services } from '#/components/ui/card'
 import {AnimatePresence, motion} from "framer-motion"
 
-import {title, intro, services, staff, images, herodescription, link } from '@/siteinfo'
+import {title, intro, services, staff, images, herodescription, link, colors } from '@/siteinfo'
 
 export const Route = createFileRoute('/')({ component: Home })
 
@@ -56,7 +56,7 @@ function Home() {
         </div>
         </AnimatePresence>
       </section>
-      <section className='w-screen bg-green-900  text-white h-auto lg:p-20 p-5'>
+      <section className={`w-screen ${colors.primarybg}  text-white h-auto lg:p-20 p-5`}>
         <div className = " w-full h-full flex flex-col lg:flex-row">
         <div className ="h-full w-full lg:w-screen">
         <motion.h1 
@@ -74,7 +74,7 @@ function Home() {
             
         
         className=' z-10   lg:w-4/5 w-full lg:text-2xl text-lg mt-10 '>{intro}</motion.p>
-        <Link to="/gallery"><Button size="lg" className = "cursor-pointer bg-green-800 text-white hover:border-black hover:text-black z-10 relative mt-10   border border-white shadow-md rounded-xl "type="submit">View our Gallery</Button></Link>
+        <Link to="/gallery"><Button size="lg" className = {`cursor-pointer ${colors.primarybg} text-white hover:border-black hover:text-black z-10 relative mt-10   border border-white shadow-md rounded-xl `}type="submit">View our Gallery</Button></Link>
         </div>
 
             <div className = "">
@@ -88,7 +88,7 @@ function Home() {
 
         </div>
       </section>
-      <section className = "bg-green-900  text-white w-screen h-auto p-5 lg:pl-50 lg:pr-50  ">
+      <section className = {` ${colors.primarybg}  text-white w-screen h-auto p-5 lg:pl-50 lg:pr-50  `}>
         <div className='h-full w-full flex flex-col'>
 
           <div className ="w-full text-center justify-center items-center">
