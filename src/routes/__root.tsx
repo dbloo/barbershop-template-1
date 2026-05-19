@@ -3,6 +3,7 @@ import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 // import { TanStackDevtools } from '@tanstack/react-devtools'
 import {Navbar } from '@/components/ui/navbar'
 import { Footer } from '#/components/ui/footer'
+import {title, location} from '@/siteinfo'
 
 import appCss from '../styles.css?url'
 
@@ -17,7 +18,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'The Luxe Barber Suite - Fort Lauderdale\'s Premier Barbershop',
+        title: `${title} - ${location}\'s Premier Barbershop`,
       },
     ],
     links: [
