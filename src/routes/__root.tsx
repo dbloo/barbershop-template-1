@@ -3,7 +3,7 @@ import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 // import { TanStackDevtools } from '@tanstack/react-devtools'
 import {Navbar } from '@/components/ui/navbar'
 import { Footer } from '#/components/ui/footer'
-import {title, location} from '@/siteinfo'
+import {title, location, keywords} from '@/siteinfo'
 
 import appCss from '../styles.css?url'
 
