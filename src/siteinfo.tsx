@@ -1,17 +1,17 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "Klk Barbershop"
-export const location = "Fort Lauderdale, FL"
+export const title = "SouthSide Barbershop"
+export const location = "Miami, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
 export const about = `At ${title}, we are dedicated to providing top-notch grooming services in ${location}. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!`
-export const intro = `Experience top-notch grooming services at the Luxe Barber Suite, your premier barbershop in Fort Lauderdale, FL. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style with ${location}`
-export const link = " "
+export const intro = `Experience top-notch grooming services at the Luxe Barber Suite, your premier barbershop in ${location}. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style with ${location}`
+export const link = "https://getsquire.com/booking/book/southside-barbershop-miami/barber/dre-fades/services "
 export const colors = {
-    primarybg: "bg-red-800",
-    secondarybg: "bg-red-900",
-    primarytext: "bg-red-800",
-    primaryborder: "bg-red-800",
+    primarybg: "bg-white",
+    secondarybg: "bg-black",
+    primarytext: "bg-black",
+    primaryborder: "bg-black",
 }
 
 export const hours = {
@@ -25,8 +25,8 @@ export const hours = {
 }
 
 export const contactInfo = {
-    address: "1909 S State Rd 7, Fort Lauderdale, FL 33317",
-    phone: "(754) 581-7537",
+    address: "2759 SW 27th Ave, Miami, FL 33133",
+    phone: "(786) 536-7542",
 }
 
 export const images = {
@@ -82,7 +82,7 @@ export const services = [
 
 ]
 
-export const bookingLink = " "
+export const bookingLink = "https://getsquire.com/booking/book/southside-barbershop-miami/barber/dre-fades/services "
 
 export const socialMedia = {
     instagram: "https://www.instagram.com/nuevaerachepifades/",
@@ -95,49 +95,26 @@ export const socialMedia = {
 
 export const staff = [
   {
-            name: "Cesar",
-            link: " ",
+            name: "Pablo A.",
+            link: "https://getsquire.com/booking/book/southside-barbershop-miami/barber/pablo-avila/services ",
             image: "./assets/portraits/p1.jpg ",
         },
         {
-            name: "Jean",
-            link: " ",
+            name: "Carlos Z",
+            link: "https://getsquire.com/booking/book/southside-barbershop-miami/barber/carlos-zamora/services",
             image: "./assets/portraits/p2.jpg ",
         },
         {
-            name: "Lakers",
-            link: " ",
+            name: "Dre F.",
+            link: "https://getsquire.com/booking/book/southside-barbershop-miami/barber/dre-fades/services",
             image: "./assets/portraits/p3.jpg",
         },
 
         {
-            name: "Yofry",
-            link: " ",
+            name: "Yoancy",
+            link: "https://getsquire.com/booking/book/southside-barbershop-miami/barber/yoancy/services",
             image: "./assets/portraits/p4.jpg",
         },
 
-        {
-            name: "Brown",
-            link: " ",
-            image: "./assets/portraits/p5.jpg",
-        },
-
-        {
-            name: "Jesus",
-            link: " ",
-            image: "./assets/portraits/p6.jpg",
-        },
-
-        {
-            name: "Josman",
-            link: " ",
-            image: "./assets/portraits/p7.jpg",
-        },
-
-        {
-            name: "Thechepi",
-            link: " ",
-            image: "./assets/portraits/p8.jpg",
-        },
 
 ]

@@ -2,7 +2,6 @@
 import { Link} from "@tanstack/react-router";
 import { Button } from "./button";
 import {link} from "@/siteinfo";
-import {colors} from "@/siteinfo"
 
 interface StaffProps{
     name: string;
@@ -22,7 +21,7 @@ interface ServiceProps{
 
 function StaffCard ({name, image, link}: StaffProps) {
 return (
-    <div className = "gap-4 justify-center items-center  border relative lg:h-85 h-50 w-full grid grid-cols-5 border-white rounded-2xl overflow-clip">
+    <div className = "gap-4 justify-center items-center  shadow-md border relative lg:h-85 h-50 w-full grid grid-cols-5 border-white rounded-2xl overflow-clip">
                   <div style={{ backgroundImage: `url(${image})` }} className={` absolute w-full h-full bg-center bg-cover  `}></div>
                   <div className = {`bg-black backdrop w-full lg:h-1/4 h-1/4 flex justify-center items-center absolute bottom-0 right-0 rounded-b-2xl overflow-hidden`}></div>
                   <div className = "absolute right-0  lg:p-5 p-2 bottom-0 flex flex-row justify-between items-baseline w-full">
