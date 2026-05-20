@@ -108,7 +108,7 @@ function Home() {
 
           
                 
-                <div className = "mask-b-from-80% mt-10 lg:mask-b-from-100% pb-20 gap-4 justify-center items-center relative  w-full grid lg:grid-cols-5 grid-cols-2 border-black rounded-2xl lg:overflow-hidden overflow-y-scroll">
+                <div className = "mask-b-from-80% mt-10 lg:mask-b-from-100% pb-20 gap-4 justify-center items-center lg:flex grid relative  w-full lg:grid-cols-5 grid-cols-2 border-black rounded-2xl lg:overflow-hidden overflow-y-scroll">
 
                      {staff.map((employee, i) => (
                       
