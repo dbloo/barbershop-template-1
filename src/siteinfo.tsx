@@ -18,7 +18,7 @@ export const colors = {
 export const hours = {
     mon:"9AM-6PM",
     tue:"9AM-6PM",
-    wed:"9AM-6PM",
+    wed:"9AM-7PM",
     thurs:"9AM-6PM",
     fri:"9AM-6PM",
     sat:"9AM-6PM",  
