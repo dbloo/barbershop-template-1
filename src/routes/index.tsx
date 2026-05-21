@@ -74,7 +74,7 @@ function Home() {
             
         
         className=' z-10   lg:w-4/5 w-full lg:text-2xl text-lg mt-10 '>{intro}</motion.p>
-        <Link to="/gallery"><Button size="lg" className = {`cursor-pointer ${colors.primarybg} ${colors.primarytext} hover:border-black hover:text-black z-10 relative mt-10   border border-white shadow-md rounded-xl `}type="submit">View our Gallery</Button></Link>
+        <Link to="/gallery"><Button size="lg" className = {`cursor-pointer ${colors.primarybg} ${colors.primarytext} hover:border-black hover:text-black z-10 relative mt-10   border ${colors.primaryborder} shadow-md rounded-xl `}type="submit">View our Gallery</Button></Link>
         </div>
 
             <div className = "">
@@ -83,7 +83,7 @@ function Home() {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
                 
-                className ="border mt-30 border-white rounded-3xl lg:mt-90 w-400"src ="/assets/cut1.jpg"/>
+                className ={`border mt-30 ${colors.primaryborder} rounded-3xl lg:mt-90 w-400`} src ="/assets/cut1.jpg"/>
                 </div>
 
         </div>
@@ -93,7 +93,7 @@ function Home() {
 
           <div className ="w-full text-center justify-center items-center">
 
-            <div className = " justify-center items-center border-t border-white mask-radial-to-70%  w-full "></div>
+            <div className = {` justify-center items-center border-t ${colors.primaryborder} mask-radial-to-70%  w-full `}></div>
         <motion.h1 
           initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}

@@ -23,7 +23,7 @@ function Footer () {
     return(
     
     <>
-    <footer className={` lg:p-20 p-5 z-1000 ${colors.secondarybg} text-white w-screen h-auto `}>
+    <footer className={` lg:p-20 p-5 z-1000 ${colors.secondarybg} ${colors.primarytext} w-screen h-auto `}>
         <div className="  lg:gap-50 gap-10 flex lg:flex-row flex-col  justify-between w-full">
             <div className="w-full">
                 <div className = "flex flex-col gap-5">
@@ -50,8 +50,8 @@ function Footer () {
                     <h1 className = "font-bold lg:text-6xl text-2xl">Stay in the loop</h1>
                     <p className="mt-5 ">Enter your email to be notified of our specials and discounts </p>
                     <div className = "relative w-full mb-10">
-                            <Input className= "relative w-full border-white placeholder:text-white mt-10 "placeholder="e.g. John Doe"/>
-                            <Button className = {` ${colors.secondarybg} cursor-pointer text-white border border-white  hover:bg-white hover:${colors.primarytext} hover:${colors.primaryborder} bottom-0 absolute right-0`}type = "submit">Submit</Button>
+                            <Input className= {`relative w-full ${colors.primaryborder} placeholder:${colors.primarytext} mt-10 "placeholder="e.g. John Doe`}/>
+                            <Button className = {` ${colors.secondarybg} cursor-pointer ${colors.primarytext} border ${colors.primaryborder}  hover:bg-white hover:${colors.primarytext} hover:${colors.primaryborder} bottom-0 absolute right-0`}type = "submit">Submit</Button>
                     </div>
                 </div>
                 <div className = "text-center justify-center items-center w-full">

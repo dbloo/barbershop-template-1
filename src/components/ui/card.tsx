@@ -1,7 +1,7 @@
 
 import { Link} from "@tanstack/react-router";
 import { Button } from "./button";
-import {link} from "@/siteinfo";
+import {colors, link} from "@/siteinfo";
 
 interface StaffProps{
     name: string;
@@ -21,7 +21,7 @@ interface ServiceProps{
 
 function StaffCard ({name, image, link}: StaffProps) {
 return (
-    <div className = "gap-4 justify-center items-center  shadow-md border relative lg:h-85 h-50 w-full grid grid-cols-5 border-white rounded-2xl overflow-clip">
+    <div className = {`gap-4 ${colors.primaryborder} justify-center items-center  shadow-md border relative lg:h-85 h-50 w-full grid grid-cols-5  rounded-2xl overflow-clip`}>
                   <div style={{ backgroundImage: `url(${image})` }} className={` absolute w-full h-full bg-center bg-cover  `}></div>
                   <div className = {`bg-black backdrop w-full lg:h-1/4 h-1/4 flex justify-center items-center absolute bottom-0 right-0 rounded-b-2xl overflow-hidden`}></div>
                   <div className = "absolute right-0  lg:p-5 p-2 bottom-0 flex flex-row justify-between items-baseline w-full">
@@ -37,7 +37,7 @@ return (
 function ServicesCard({title, description, image}: ServiceProps){
 
     return(
-        <div className = " overflow-hidden relative border w-full  border-white rounded-2xl h-80 ">
+        <div className = {` overflow-hidden relative border w-full  border-white rounded-2xl h-80 `}>
                     
                       <div style={{ backgroundImage: `url(${image})` }} className={` z-200 w-full bg-cover bg-center h-full `}></div>
 
@@ -58,7 +58,7 @@ function ServicesCard({title, description, image}: ServiceProps){
 function Services({title, description, Icon, image}: ServiceProps){
 
     return(
-        <div className = "w-full relative flex lg:flex-row flex-col justify-between border-white border rounded-2xl p-5">
+        <div className = {`w-full relative flex lg:flex-row flex-col justify-between ${colors.secondaryborder} border rounded-2xl p-5`}>
             <div className="relative lg:w-150  w-fullpr-10">
             <div className = "flex flex-row  items-baseline">
               <h1 className = "text-3xl text-bold mb-3 text-white">{title}</h1>
