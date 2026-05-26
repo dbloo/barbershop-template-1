@@ -1,12 +1,12 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "DOMES Barber Studio"
+export const title = "E's Barbershop"
 export const location = "Pompano Beach, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
 export const about = `At ${title}, we are dedicated to providing top-notch grooming services in ${location}. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!`
 export const intro = `Experience top-notch grooming services at ${title}, your premier barbershop in ${location}. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style at ${title}`
-export const link = "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach"
+export const link = " "
 export const colors = {
     primarybg: "bg-bgprimary",
     secondarybg: "bg-bgsecondary",
@@ -28,8 +28,8 @@ export const hours = {
 }
 
 export const contactInfo = {
-    address: "3441 Fowler St, Fort Myers, FL 33901",
-    phone: "(239) 462-0678",
+    address: "1216 E West Atlantic Boulevard, Pompano Beach, FL 33060",
+    phone: "(954) 638-5130",
 }
 
 export const images = {
@@ -85,7 +85,7 @@ export const services = [
 
 ]
 
-export const bookingLink = "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach"
+export const bookingLink = " "
 
 export const socialMedia = {
     instagram: "https://www.instagram.com/nuevaerachepifades/",
@@ -99,23 +99,23 @@ export const socialMedia = {
 export const staff = [
   {
             name: "Pablo A.",
-            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
+            link: " ",
             image: "./assets/portraits/p1.jpg ",
         },
         {
             name: "Carlos Z",
-            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
+            link: " ",
             image: "./assets/portraits/p2.jpg ",
         },
         {
             name: "Dre F.",
-            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
+            link: " ",
             image: "./assets/portraits/p3.jpg",
         },
 
         {
             name: "Yoancy",
-            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
+            link: " ",
             image: "./assets/portraits/p4.jpg",
         },
 
