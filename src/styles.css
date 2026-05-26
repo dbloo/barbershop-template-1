@@ -8,6 +8,16 @@
 
 :root {
 
+  --bgprimary: rgb(255, 251, 243);
+  --bgsecondary: rgb(6, 23, 32);
+  --bgtertiary: rgba(255, 255, 255, 0.07);
+  --textprimary: rgb(0, 0, 0);
+  --textsecondary: rgb(255, 255, 255);
+  --texttertiary: rgba(255, 255, 255, 0.07);
+  --borderprimary: rgba(255, 255, 255, 0.07);
+  --bordersecondary: rgba(255, 255, 255, 0.07);
+  --bordertertiary : rgba(255, 255, 255, 0.07);
+
 
   --background: oklch(1 0 0);
 
@@ -47,6 +57,19 @@
 }
 
 @theme inline {
+
+  --color-bgprimary: var(--bgprimary);
+  --color-bgsecondary: var(--bgsecondary);
+  --color-bgtertiary: var(--bgtertiary);
+
+  --color-textprimary: var(--textprimary);
+  --color-textsecondary: var(--textsecondary);
+  --color-texttertiary: var(--texttertiary);
+
+  --color-borderprimary: var(--borderprimary);
+  --color-bordersecondary: var(--bordersecondary);
+  --color-bordertertiary: var(--bordertertiary);
+  
   --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
   --color-text-head: var(--text-head);
   --color-background: var(--background);

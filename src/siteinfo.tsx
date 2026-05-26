@@ -1,16 +1,18 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "Solene Barbershop"
-export const location = "Fort Meyers, FL"
+export const title = "DOMES Barber Studio"
+export const location = "Pompano Beach, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
 export const about = `At ${title}, we are dedicated to providing top-notch grooming services in ${location}. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!`
-export const intro = `Experience top-notch grooming services at the Luxe Barber Suite, your premier barbershop in ${location}. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style with ${location}`
-export const link = "https://getsquire.com/booking/book/southside-barbershop-miami/barber/dre-fades/services "
+export const intro = `Experience top-notch grooming services at ${title}, your premier barbershop in ${location}. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style at ${title}`
+export const link = "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach"
 export const colors = {
-    primarybg: "bg-yellow-500",
-    secondarybg: "bg-yellow-500",
-    primarytext: "bg-black",
+    primarybg: "bg-bgprimary",
+    secondarybg: "bg-bgsecondary",
+    tertiarybg: "bg-tertiary",
+    primarytext: "text-textprimary",
+    secondarytext: "text-textsecondary",
     primaryborder: "border-black",
     secondaryborder: "border-white",
 }
@@ -83,7 +85,7 @@ export const services = [
 
 ]
 
-export const bookingLink = "https://getsquire.com/booking/book/southside-barbershop-miami/barber/dre-fades/services "
+export const bookingLink = "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach"
 
 export const socialMedia = {
     instagram: "https://www.instagram.com/nuevaerachepifades/",
@@ -97,23 +99,23 @@ export const socialMedia = {
 export const staff = [
   {
             name: "Pablo A.",
-            link: "https://getsquire.com/booking/book/southside-barbershop-miami/barber/pablo-avila/services ",
+            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
             image: "./assets/portraits/p1.jpg ",
         },
         {
             name: "Carlos Z",
-            link: "https://getsquire.com/booking/book/southside-barbershop-miami/barber/carlos-zamora/services",
+            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
             image: "./assets/portraits/p2.jpg ",
         },
         {
             name: "Dre F.",
-            link: "https://getsquire.com/booking/book/southside-barbershop-miami/barber/dre-fades/services",
+            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
             image: "./assets/portraits/p3.jpg",
         },
 
         {
             name: "Yoancy",
-            link: "https://getsquire.com/booking/book/southside-barbershop-miami/barber/yoancy/services",
+            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
             image: "./assets/portraits/p4.jpg",
         },
 

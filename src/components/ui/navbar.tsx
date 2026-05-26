@@ -7,6 +7,7 @@ import {motion} from "framer-motion"
 import {link, title, images} from "@/siteinfo"
 
 import { useState } from "react"
+import {colors} from "@/siteinfo"
 
 
 function Navbar() {
@@ -23,7 +24,7 @@ function Navbar() {
     animate={isOpen ? { y:-100, opacity: 1, transition: {type:"spring", stiffness:1000, damping: 100, duration:0.5, ease: "easeInOut"} } :  { y: -300, opacity: 1 }}
 
     
-    className="h-95 fixed z-1000  overflow-y-hidden bg-black justify-center items-center text-text-head  w-screen ">
+    className={`h-95 fixed z-1000  overflow-y-hidden ${colors.secondarybg} justify-center items-center text-text-head  w-screen `}>
         <nav className="w-full  absolute lg:-bottom-3 bottom-0 flex flex-row justify-between items-center lg:p-10 p-5">
         <Link className = " text-white" onClick = {() => setIsOpen(false)} to = "/">{images.logo === " " ? (<h1 className = "cursor-pointer lg:text-xl text-xl text-sm font-black">{title}</h1>):(<img src = {images.logo}></img>)}</Link>
         <div className = "text-sm flex flex-row gap-4 justify-center relative items-center">

@@ -79,11 +79,9 @@ function Home() {
 
             <div className = "">
                 <motion.img 
-               initial={{ y: 20, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.3 }}
+              
                 
-                className ={`border mt-30 ${colors.primaryborder} rounded-3xl lg:mt-90 w-400`} src ="/assets/cut1.jpg"/>
+                className ={`border mt-30 ${colors.primaryborder} shadow-2xl rounded-3xl lg:mt-90 w-400`} src ="/assets/cut1.jpg"/>
                 </div>
 
         </div>
@@ -124,7 +122,7 @@ function Home() {
 
       </section>
 
-      <section className = "bg-black w-screen h-auto lg:pr-20 lg:pl-20 lg:pb-20 p-5 ">
+      <section className = {` ${colors.secondarybg} bg-black w-screen h-auto lg:pr-20 lg:pl-20 lg:pb-20 p-5 `}>
         <div className='h-full w-full flex flex-col'>
 
           <div className ="w-full text-center mb-15">
