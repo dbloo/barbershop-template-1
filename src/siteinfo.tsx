@@ -28,8 +28,8 @@ export const hours = {
 }
 
 export const contactInfo = {
-    address: "3441 Fowler St, Fort Myers, FL 33901",
-    phone: "(239) 462-0678",
+    address: "1 N Ocean Blvd Suite 101 Studio #20, Pompano Beach, FL 33060",
+    phone: "(954) 625-5477",
 }
 
 export const images = {
