@@ -1,7 +1,7 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "DOMES Barber Studio"
-export const location = "Pompano Beach, FL"
+export const title = "Hooligans Barbershop"
+export const location = "Deerfield Beach, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
 export const about = `At ${title}, we are dedicated to providing top-notch grooming services in ${location}. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!`
@@ -28,8 +28,8 @@ export const hours = {
 }
 
 export const contactInfo = {
-    address: "1 N Ocean Blvd Suite 101 Studio #20, Pompano Beach, FL 33060",
-    phone: "(954) 625-5477",
+    address: "24 NE 2nd Ave, Deerfield Beach, FL 33441",
+    phone: "(754) 276-1012",
 }
 
 export const images = {
@@ -85,7 +85,7 @@ export const services = [
 
 ]
 
-export const bookingLink = "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach"
+export const bookingLink = "https://www.vagaro.com/hooligansbarbershop/staff"
 
 export const socialMedia = {
     instagram: "https://www.instagram.com/nuevaerachepifades/",
@@ -98,24 +98,24 @@ export const socialMedia = {
 
 export const staff = [
   {
-            name: "Pablo A.",
-            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
+            name: "Pancho Dias",
+            link: "https://www.vagaro.com/hooligansbarbershop/staff",
             image: "./assets/portraits/p1.jpg ",
         },
         {
-            name: "Carlos Z",
-            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
+            name: "Eduardo Zampieri",
+            link: "https://www.vagaro.com/hooligansbarbershop/staff",
             image: "./assets/portraits/p2.jpg ",
         },
         {
-            name: "Dre F.",
-            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
+            name: "Lucas Silva",
+            link: "https://www.vagaro.com/hooligansbarbershop/staff",
             image: "./assets/portraits/p3.jpg",
         },
 
         {
-            name: "Yoancy",
-            link: "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach",
+            name: "Alex Junior",
+            link: "https://www.vagaro.com/hooligansbarbershop/staff",
             image: "./assets/portraits/p4.jpg",
         },
 
