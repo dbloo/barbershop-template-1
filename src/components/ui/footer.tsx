@@ -54,7 +54,7 @@ function Footer () {
                             <Button className = {` ${colors.secondarybg} cursor-pointer ${colors.secondarytext} border ${colors.secondaryborder}  hover:bg-white hover:${colors.primarytext} hover:${colors.primaryborder} bottom-0 absolute right-0`}type = "submit">Submit</Button>
                     </div>
                 </div>
-                <div className = "text-center justify-center items-center w-full">
+                <div className = "brightness-50 text-center justify-center items-center w-full">
                 <p>©2026 {title}.</p>
                 <p>Site developed by Traction Media.</p>
                 </div>

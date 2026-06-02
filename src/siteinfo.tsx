@@ -1,12 +1,12 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "Brazuka Barbershop"
-export const location = "Coconut Creek, FL"
+export const title = "Machete Mike Barbershop"
+export const location = "Margate, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
 export const about = `At ${title}, we are dedicated to providing top-notch grooming services in ${location}. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!`
 export const intro = `Experience top-notch grooming services at ${title}, your premier barbershop in ${location}. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style at ${title}`
-export const link = "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach"
+export const link = " "
 export const colors = {
     primarybg: "bg-bgsecondary",
     secondarybg: "bg-bgsecondary",
@@ -28,8 +28,8 @@ export const hours = {
 }
 
 export const contactInfo = {
-    address: "4420 W Hillsboro Blvd, Coconut Creek, FL 33073",
-    phone: "(561) 441-1126",
+    address: "5400, W Sample Rd #30, Margate, FL 33073",
+    phone: "(954) 692-4173",
 }
 
 export const images = {

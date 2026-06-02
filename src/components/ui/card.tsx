@@ -59,7 +59,7 @@ function Services({title, description, Icon, image}: ServiceProps){
 
     return(
         <div className = {`w-full relative flex lg:flex-row flex-col justify-between bg-white/5  border-white/20  border rounded-2xl p-5`}>
-            <div className="relative lg:w-150  w-fullpr-10">
+            <div className="relative lg:w-150  w-full">
             <div className = "flex flex-row  items-baseline">
               <h1 className = "text-3xl text-bold mb-3 text-white">{title}</h1>
               {Icon && <Icon className = "invert ml-5" size = {24}/>}
@@ -67,7 +67,7 @@ function Services({title, description, Icon, image}: ServiceProps){
               <h1 className = "text-white">{description}</h1>
               <a href = {link}
              
-                  ><Button size= "lg" className = "cursor-pointer hover:bg-black hover:text-white rounded-2xl bg-red  mt-10 z-10  right-0 bg-white border-white border text-black "type="submit">Book</Button></a>
+                  ><Button size= "lg" className = "cursor-pointer hover:bg-black hover:text-white rounded-2xl bg-red  mt-10 z-10   bg-white/10 border-white border text-white "type="submit">Book</Button></a>
                   </div> 
                   <div style={{ backgroundImage: `url(${image})` }} className=" rounded-r-lg w-1/2 bg-center h-full bg-cover">
                     
