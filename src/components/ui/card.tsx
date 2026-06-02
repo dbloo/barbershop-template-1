@@ -21,11 +21,11 @@ interface ServiceProps{
 
 function StaffCard ({name, image, link}: StaffProps) {
 return (
-    <div className = {`gap-4 ${colors.primaryborder} justify-center items-center  shadow-md border relative lg:h-85 h-50 w-full grid grid-cols-5  rounded-2xl overflow-clip`}>
+    <div className = {`gap-4 border-white/20 justify-center items-center  shadow-md border relative lg:h-85 h-50 w-full grid grid-cols-5  rounded-2xl overflow-clip`}>
                   <div style={{ backgroundImage: `url(${image})` }} className={` absolute w-full h-full bg-center bg-cover  `}></div>
-                  <div className = {`bg-black backdrop w-full lg:h-1/4 h-1/4 flex justify-center items-center absolute bottom-0 right-0 rounded-b-2xl overflow-hidden`}></div>
-                  <div className = "absolute right-0  lg:p-5 p-2 bottom-0 flex flex-row justify-between items-baseline w-full">
-                      <h1 className = " bottom-0 lg:text-2xl font-bold left-0  text-white">{name}</h1>
+                  <div className = {`bg-black mask-t-from-10%  w-full lg:h-1/4 h-1/2 flex justify-center items-center absolute -bottom-5 right-0 rounded-b-2xl overflow-hidden`}></div>
+                  <div className = "absolute right-0  lg:p-5 bottom-0 flex px-3 py-2 flex-row justify-between items-center w-full">
+                      <h1 className = " bottom-0 lg:text-2xl text-xs w-full font-bold left-0  text-white">{name}</h1>
                       <Link to ={link}><Button size = "sm" className = " z-10  bg-white text-black hover:bg-black hover:border-white hover:text-white cursor-pointer border-white border top-20"type="submit">Book</Button></Link>
                   </div>
                   </div>
@@ -58,7 +58,7 @@ function ServicesCard({title, description, image}: ServiceProps){
 function Services({title, description, Icon, image}: ServiceProps){
 
     return(
-        <div className = {`w-full relative flex lg:flex-row flex-col justify-between ${colors.secondaryborder} border rounded-2xl p-5`}>
+        <div className = {`w-full relative flex lg:flex-row flex-col justify-between bg-white/5  border-white/20  border rounded-2xl p-5`}>
             <div className="relative lg:w-150  w-fullpr-10">
             <div className = "flex flex-row  items-baseline">
               <h1 className = "text-3xl text-bold mb-3 text-white">{title}</h1>

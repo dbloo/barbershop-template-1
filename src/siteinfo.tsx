@@ -1,17 +1,17 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "Hooligans Barbershop"
-export const location = "Deerfield Beach, FL"
+export const title = "Wolf Barbershop"
+export const location = "Coconut Creek, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
 export const about = `At ${title}, we are dedicated to providing top-notch grooming services in ${location}. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!`
 export const intro = `Experience top-notch grooming services at ${title}, your premier barbershop in ${location}. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style at ${title}`
 export const link = "https://booksy.com/en-us/466416_domes-barber-studio_barber-shop_15649_pompano-beach"
 export const colors = {
-    primarybg: "bg-bgprimary",
+    primarybg: "bg-bgsecondary",
     secondarybg: "bg-bgsecondary",
     tertiarybg: "bg-tertiary",
-    primarytext: "text-textprimary",
+    primarytext: "text-textsecondary",
     secondarytext: "text-textsecondary",
     primaryborder: "border-black",
     secondaryborder: "border-white",
@@ -28,8 +28,8 @@ export const hours = {
 }
 
 export const contactInfo = {
-    address: "24 NE 2nd Ave, Deerfield Beach, FL 33441",
-    phone: "(754) 276-1012",
+    address: "4420 W Hillsboro Blvd, Coconut Creek, FL 33073",
+    phone: "(561) 441-1126",
 }
 
 export const images = {
@@ -85,7 +85,7 @@ export const services = [
 
 ]
 
-export const bookingLink = "https://www.vagaro.com/hooligansbarbershop/staff"
+export const bookingLink = " "
 
 export const socialMedia = {
     instagram: "https://www.instagram.com/nuevaerachepifades/",
@@ -99,23 +99,23 @@ export const socialMedia = {
 export const staff = [
   {
             name: "Pancho Dias",
-            link: "https://www.vagaro.com/hooligansbarbershop/staff",
+            link: " ",
             image: "./assets/portraits/p1.jpg ",
         },
         {
             name: "Eduardo Zampieri",
-            link: "https://www.vagaro.com/hooligansbarbershop/staff",
+            link: " ",
             image: "./assets/portraits/p2.jpg ",
         },
         {
             name: "Lucas Silva",
-            link: "https://www.vagaro.com/hooligansbarbershop/staff",
+            link: " ",
             image: "./assets/portraits/p3.jpg",
         },
 
         {
             name: "Alex Junior",
-            link: "https://www.vagaro.com/hooligansbarbershop/staff",
+            link: " ",
             image: "./assets/portraits/p4.jpg",
         },
 

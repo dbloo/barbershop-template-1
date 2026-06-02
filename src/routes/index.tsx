@@ -50,15 +50,15 @@ function Home() {
                   </div>
         <div 
         style = {{backgroundImage: `url(${images.hero})`}}
-        className={`lg:bg-fixed brightness-50 absolute w-screen h-screen lg:bg-cover bg-cover bg-center`}></div>
+        className={`lg:bg-fixed brightness-50 mask-b-from-1.5 absolute w-screen h-screen lg:bg-cover bg-cover bg-center`}></div>
         <div className = "items-center justify-center w-full h-full ">
         </div>
         </div>
         </AnimatePresence>
       </section>
-      <section className={`w-screen ${colors.primarybg}  ${colors.primarytext} h-auto lg:p-20 p-5`}>
-        <div className = " w-full h-full flex flex-col lg:flex-row">
-        <div className ="h-full w-full lg:w-screen">
+      <section className={`w-screen ${colors.primarybg}  ${colors.primarytext} h-auto lg:p-50 p-5`}>
+        <div className = " w-full justify-center items-center h-full flex flex-col lg:flex-row">
+        <div className ="h-full lg:w-1/2 ">
         <motion.h1 
 
            initial={{ y: 20, opacity: 0 }}
@@ -74,24 +74,24 @@ function Home() {
             
         
         className=' z-10   lg:w-4/5 w-full lg:text-2xl text-lg mt-10 '>{intro}</motion.p>
-        <Link to="/gallery"><Button size="lg" className = {`cursor-pointer ${colors.primarybg} ${colors.primarytext} hover:border-black hover:text-black z-10 relative mt-10   border ${colors.primaryborder} shadow-md rounded-xl `}type="submit">View our Gallery</Button></Link>
+        <Link to="/gallery"><Button size="lg" className = {`cursor-pointer ${colors.primarybg} ${colors.primarytext} hover:border-black hover:text-black z-10 relative mt-10   border ${colors.secondaryborder} shadow-md rounded-xl `}type="submit">View our Gallery</Button></Link>
         </div>
 
             <div className = "">
                 <motion.img 
               
                 
-                className ={`border mt-30 ${colors.primaryborder} shadow-2xl rounded-3xl lg:mt-90 w-400`} src ="/assets/cut1.jpg"/>
+                className ={`border mt-30 border-white/10 shadow-2xl rounded-3xl lg:mt-0 w-200`} src ="/assets/cut1.jpg"/>
                 </div>
 
         </div>
       </section>
-      <section className = {` ${colors.primarybg}  ${colors.primarytext} w-screen h-auto p-5 lg:pl-50 lg:pr-50  `}>
+      <section className = {` ${colors.primarybg}  ${colors.primarytext} bg-linear-2 from-black to-bgsecondary w-screen h-auto p-5 lg:pl-50 lg:pr-50  `}>
         <div className='h-full w-full flex flex-col'>
 
           <div className ="w-full text-center justify-center items-center">
 
-            <div className = {` justify-center items-center border-t ${colors.primaryborder} mask-radial-to-70%  w-full `}></div>
+            <div className = {` justify-center items-center border-t ${colors.secondaryborder} mask-radial-to-70%  w-full `}></div>
         <motion.h1 
           initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
@@ -100,13 +100,13 @@ function Home() {
         className=' z-10 font-black lg:text-6xl text-4xl mt-10 '>Our Professionals</motion.h1>
         <motion.p initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.2 }}className=' z-10   lg:text-2xl text-2xl mt-10 '>Barbers dedicated to your personal style</motion.p>
+            transition={{ delay: 0.2 }}className=' z-10   brightness-80 lg:text-2xl text-2xl mt-10 '>Barbers dedicated to your personal style</motion.p>
         
         </div>
 
           
                 
-                <div className = "mask-b-from-80% mt-10 lg:mask-b-from-100% pb-20 gap-4 justify-center items-center lg:flex grid relative  w-full lg:grid-cols-5 grid-cols-2 border-black rounded-2xl lg:overflow-hidden overflow-y-scroll">
+                <div className = {`mask-b-from-80% mt-10 lg:mask-b-from-100% pb-20 gap-4 justify-center items-center lg:flex grid relative  w-full lg:grid-cols-5 grid-cols-2 ${colors.secondaryborder} rounded-2xl lg:overflow-hidden overflow-y-scroll`}>
 
                      {staff.map((employee, i) => (
                       
@@ -131,11 +131,11 @@ function Home() {
         initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.1 }}
-        className=' z-10 font-black text-white lg:text-6xl text-4xl  '>Our Services</motion.h1>
+        className=' z-10 font-black text-white lg:text-6xl text-4xl  '> Our Services </motion.h1>
         <motion.p 
         initial={{ y: 20, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.1 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.1 }}
         className=' z-10   lg:text-2xl text-2xl mt-5 mb-10 text-white '>What we can help you with</motion.p>
         
         </div>

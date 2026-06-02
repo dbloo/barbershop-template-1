@@ -51,7 +51,7 @@ function Footer () {
                     <p className="mt-5 ">Enter your email to be notified of our specials and discounts </p>
                     <div className = "relative w-full mb-10">
                             <Input className= {`relative w-full ${colors.secondaryborder} placeholder:${colors.secondarytext} mt-10 "placeholder="e.g. John Doe`}/>
-                            <Button className = {` ${colors.secondarybg} cursor-pointer ${colors.secondarytext} border ${colors.primaryborder}  hover:bg-white hover:${colors.primarytext} hover:${colors.primaryborder} bottom-0 absolute right-0`}type = "submit">Submit</Button>
+                            <Button className = {` ${colors.secondarybg} cursor-pointer ${colors.secondarytext} border ${colors.secondaryborder}  hover:bg-white hover:${colors.primarytext} hover:${colors.primaryborder} bottom-0 absolute right-0`}type = "submit">Submit</Button>
                     </div>
                 </div>
                 <div className = "text-center justify-center items-center w-full">

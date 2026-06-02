@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import {motion} from "framer-motion"
+import {colors} from "@/siteinfo"
 
 export const Route = createFileRoute('/gallery')({
   component: RouteComponent,
@@ -18,18 +19,18 @@ const images = [
 ];
 
 function RouteComponent() {
-  return <main><section className = "w-screen h-auto lg:p-20 pt-20 p-5">
+  return <main><section className = "w-screen h-auto lg:p-20 pt-20 ${colors.secondarybg} p-5">
     
     <motion.h1 initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.1 }}
             
-             className = "text-black font-black lg:text-9xl mt-10 text-6xl w-full">GALLERY</motion.h1> 
+             className = {`${colors.primarytext} font-black lg:text-9xl mt-10 text-6xl w-full`}>GALLERY</motion.h1> 
 
     <motion.div 
     
     
-    className = "overflow-hidden w-full flex flex-col min-h-screen   bg-background  ">
+    className = {`overflow-hidden w-full flex flex-col min-h-screen     `}>
     <div className = "overflow-hidden w-full text-8xl  ">
    
 
