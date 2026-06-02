@@ -1,6 +1,6 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "Wolf Barbershop"
+export const title = "Brazuka Barbershop"
 export const location = "Coconut Creek, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
