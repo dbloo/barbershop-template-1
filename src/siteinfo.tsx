@@ -1,11 +1,11 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "Machete Mike Barbershop"
+export const title = "Nelly Da Barber"
 export const location = "Margate, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
-export const about = `At ${title}, we are dedicated to providing top-notch grooming services in ${location}. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!`
-export const intro = `Experience top-notch grooming services at ${title}, your premier barbershop in ${location}. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style at ${title}`
+export const about = `With ${title}, we are dedicated to providing top-notch grooming services in ${location}. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!`
+export const intro = `Experience top-notch grooming services with ${title}, your premier barbershop in ${location}. Book your appointment today for a fresh fade, stylish haircut, and exceptional grooming services. Our skilled barbers are dedicated to providing you with the best grooming experience in town. Don't wait, schedule your visit now and step out in style at ${title}`
 export const link = " "
 export const colors = {
     primarybg: "bg-bgsecondary",
@@ -28,8 +28,8 @@ export const hours = {
 }
 
 export const contactInfo = {
-    address: "5400, W Sample Rd #30, Margate, FL 33073",
-    phone: "(954) 692-4173",
+    address: "1442 N State Rd 7, Margate, FL 33063",
+    phone: "(954) 588-1503",
 }
 
 export const images = {
