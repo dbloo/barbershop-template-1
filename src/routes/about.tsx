@@ -17,7 +17,7 @@ function RouteComponent() {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.1 }}
             
-             className = {`${colors.primarytext} font-black lg:text-9xl text-6xl w-full`}>ABOUT US</motion.h1> 
+             className = {`${colors.primarytext} font-black lg:text-9xl text-6xl w-full `}>ABOUT US</motion.h1> 
 
         <div>
         <motion.p 
