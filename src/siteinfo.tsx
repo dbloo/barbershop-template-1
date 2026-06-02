@@ -12,7 +12,7 @@ export const colors = {
     secondarybg: "bg-bgsecondary",
     tertiarybg: "bg-tertiary",
     primarytext: "text-textsecondary",
-    secondarytext: "text-textsecondary",
+    secondarytext: "text-textsecondary ",
     primaryborder: "border-black",
     secondaryborder: "border-white",
 }
