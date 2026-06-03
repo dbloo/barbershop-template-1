@@ -3,6 +3,8 @@ import {Button} from '@/components/ui/button'
 import {Link} from "@tanstack/react-router"
 import { StaffCard, Services } from '#/components/ui/card'
 import {AnimatePresence, motion} from "framer-motion"
+import InstagramFeed from "@/components/instagramFeed"
+import { Counter } from "@/components/ui/counter"
 
 import {title, intro, services, staff, images, herodescription, link, colors } from '@/siteinfo'
 
@@ -11,7 +13,7 @@ export const Route = createFileRoute('/')({ component: Home })
   
 function Home() {
 
-
+  
 
   return (
    <main className='w-screen overflow-x-hidden min-h-screen'>
@@ -86,8 +88,8 @@ function Home() {
 
         </div>
       </section>
-      <section className = {` ${colors.primarybg}  ${colors.primarytext} bg-linear-2 from-black to-bgsecondary w-screen h-auto p-5 lg:pl-50 lg:pr-50  `}>
-        <div className='h-full w-full flex flex-col'>
+      <section className = {` ${colors.primarybg}  ${colors.primarytext} y w-screen h-screen p-5 lg:pl-50 lg:pr-50  `}>
+        <div className='h-full justify-center items-center w-full flex flex-col'>
 
           <div className ="w-full text-center justify-center items-center">
 
@@ -119,6 +121,53 @@ function Home() {
 
       
                         </div>
+
+      </section>
+
+      <section className = {` ${colors.primarybg}  ${colors.primarytext} text-center bg-linear-2 from-black to-bgsecondary w-screen h-full  pb-20 p-5 lg:pl-50 lg:pr-50  `}>
+
+        <div className = {` justify-center items-center border-t ${colors.secondaryborder} mask-radial-to-70%  w-full `}></div>
+<motion.h1
+        initial={{ y: 20, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.1 }}
+        className=' z-10 font-black text-white lg:text-6xl text-4xl  pt-10'> Our Feed </motion.h1>
+
+        <motion.p 
+        initial={{ y: 20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.1 }}
+        className=' z-10   lg:text-2xl text-2xl mt-5 mb-10 text-white '>Check out what We've been up to</motion.p>
+
+                     <div className = "w-full h-full flex flex-col justify-center items-center">
+
+                      <h1 className = "text-4xl font-bold ">Hair Cuts: </h1>
+                      <Counter target={100}/>
+
+                     </div>
+
+      </section>
+
+      <section className = {` ${colors.primarybg}  ${colors.primarytext} text-center bg-linear-2 from-black to-bgsecondary w-screen h-full  pb-20 p-5 lg:pl-50 lg:pr-50  `}>
+
+        <div className = {` justify-center items-center border-t ${colors.secondaryborder} mask-radial-to-70%  w-full `}></div>
+<motion.h1
+        initial={{ y: 20, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.1 }}
+        className=' z-10 font-black text-white lg:text-6xl text-4xl  pt-10'> Our Feed </motion.h1>
+
+        <motion.p 
+        initial={{ y: 20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.1 }}
+        className=' z-10   lg:text-2xl text-2xl mt-5 mb-10 text-white '>Check out what We've been up to</motion.p>
+
+                     <div className = "w-full h-full flex flex-col justify-center items-center">
+
+                      <InstagramFeed />
+                      <h1 className='font-bold brightness-50 mt-10'>Via Instagram.com</h1>
+                     </div>
 
       </section>
 

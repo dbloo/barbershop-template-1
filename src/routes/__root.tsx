@@ -4,6 +4,7 @@ import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 import {Navbar } from '@/components/ui/navbar'
 import { Footer } from '#/components/ui/footer'
 import {title, location, keywords} from '@/siteinfo'
+import {QueryClient, QueryClientProvider, useQuery} from "@tanstack/react-query"
 
 import appCss from '../styles.css?url'
 
@@ -32,11 +33,14 @@ export const Route = createRootRoute({
 })
 
 function RootDocument({ children }: { children: React.ReactNode }) {
+
+  const queryClient = new QueryClient();
   return (
     <html lang="en"  className='scroll-smooth' >
       <head>
         <HeadContent />
       </head>
+      <QueryClientProvider client={queryClient}>
        <Navbar/>
       <body>
        
@@ -57,6 +61,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <Scripts />
       </body>
                <Footer/>
+               </QueryClientProvider>
 
     </html>
   )
