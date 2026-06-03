@@ -7,7 +7,6 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-
   --bgprimary: rgb(255, 251, 243);
   --bgsecondary: rgb(19, 80, 0);
   --bgtertiary: rgb(14, 63, 0);
