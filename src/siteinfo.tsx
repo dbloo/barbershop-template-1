@@ -1,6 +1,6 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "Refined Cuts"
+export const title = "Elevation Barbershop"
 export const location = "Hollywood, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
@@ -10,7 +10,7 @@ export const link = " "
 export const colors = {
     primarybg: "bg-bgsecondary",
     secondarybg: "bg-bgsecondary",
-    tertiarybg: "bg-tertiary",
+    tertiarybg: "bg-bgtertiary",
     primarytext: "text-textsecondary",
     secondarytext: "text-textsecondary ",
     primaryborder: "border-black",

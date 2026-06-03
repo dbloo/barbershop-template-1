@@ -86,7 +86,7 @@ function Home() {
 
         </div>
       </section>
-      <section className = {` ${colors.primarybg}  ${colors.primarytext} bg-linear-2 from-black to-bgsecondary w-screen h-auto p-5 lg:pl-50 lg:pr-50  `}>
+      <section className = {` ${colors.primarybg}  ${colors.primarytext} bg-linear-2 from-bgtertiary to-bgsecondary w-screen h-auto p-5 lg:pl-50 lg:pr-50  `}>
         <div className='h-full w-full flex flex-col'>
 
           <div className ="w-full text-center justify-center items-center">
@@ -106,7 +106,7 @@ function Home() {
 
           
                 
-                <div className = {`mask-b-from-80% mt-10 lg:mask-b-from-100% pb-20 gap-4 justify-center items-center lg:flex grid relative  w-full lg:grid-cols-5 grid-cols-2 ${colors.secondaryborder} rounded-2xl lg:overflow-hidden overflow-y-scroll`}>
+                <div className = {`mt-10  pb-20 gap-4 justify-center items-center lg:flex grid relative  w-full lg:grid-cols-5 grid-cols-2 ${colors.secondaryborder} rounded-2xl lg:overflow-hidden overflow-y-scroll`}>
 
                      {staff.map((employee, i) => (
                       
@@ -122,7 +122,7 @@ function Home() {
 
       </section>
 
-      <section className = {` ${colors.secondarybg} bg-black w-screen h-auto lg:pr-20 lg:pl-20 lg:pb-20 p-5 `}>
+      <section className = {` ${colors.secondarybg} ${colors.tertiarybg} w-screen h-auto lg:pr-20 lg:pl-20 lg:pb-20 p-5 `}>
         <div className='h-full w-full flex flex-col'>
 
           <div className ="w-full text-center mb-15">
