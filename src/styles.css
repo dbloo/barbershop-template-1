@@ -8,8 +8,8 @@
 
 :root {
   --bgprimary: rgb(255, 251, 243);
-  --bgsecondary: rgb(19, 80, 0);
-  --bgtertiary: rgb(14, 63, 0);
+  --bgsecondary: rgb(23, 23, 23);
+  --bgtertiary: rgb(11, 11, 11);
   --textprimary: rgb(0, 0, 0);
   --textsecondary: rgb(255, 255, 255);
   --texttertiary: rgba(255, 255, 255, 0.07);
