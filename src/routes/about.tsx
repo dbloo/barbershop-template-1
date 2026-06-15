@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Button } from '@/components/ui/button'
 import {motion} from "framer-motion"
-import {about, herodescription, staff } from '@/siteinfo'
+import {about } from '@/siteinfo'
 import {colors} from "@/siteinfo"
 export const Route = createFileRoute('/about')({
   component: RouteComponent,
