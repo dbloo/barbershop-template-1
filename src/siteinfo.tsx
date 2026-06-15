@@ -1,7 +1,7 @@
 import { Scissors, Lollipop} from 'lucide-react'
 
-export const title = "JB STYLE Barbershop "
-export const location = "Plantation, FL"
+export const title = "OVO Barbershop "
+export const location = "Miramar, FL"
 export const keywords = `${title}, barbershop, ${location}, grooming services, haircuts, fades, beard trims`
 export const herodescription = `Your premier barbershop in ${location}. Book your appointment today and experience the best`
 export const about = `At ${title}, we are dedicated to providing top-notch grooming services in ${location}. Our skilled barbers specialize in a wide range of haircuts, fades, and beard trims, ensuring that every client leaves looking and feeling their best. With a commitment to quality and customer satisfaction, we strive to create a welcoming and comfortable environment for all our clients. Book your appointment today and experience the best grooming services in town at The Luxe Barber Suite!`
@@ -28,7 +28,7 @@ export const hours = {
 }
 
 export const contactInfo = {
-    address: "1827 N Pine Island Rd, Plantation, FL 33322",
+    address: "3480 Red Rd, Miramar, FL 33025",
     phone: "(754) 248-5431",
 }
 
